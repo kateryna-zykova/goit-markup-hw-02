@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #434455;
@@ -15,7 +15,7 @@ h2 {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -47,7 +47,7 @@ a, button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -57,7 +57,7 @@ a, button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -89,7 +89,7 @@ a, button {
 }
 
 .header-contact {
-
+    font-style: normal;
 }
 
 .contact-list {
@@ -126,13 +126,14 @@ a, button {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .hero-btn {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -178,6 +179,10 @@ a, button {
 
 .section-team {
     background: #f4f4fd;    
+}
+
+.section-team .section-list-item {
+    background-color: #FFFFFF;
 }
 
 .section-portfolio {
